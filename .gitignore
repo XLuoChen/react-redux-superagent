@@ -189,3 +189,5 @@ fabric.properties
 
 /public/dist/
 .jshintrc
+
+dist/

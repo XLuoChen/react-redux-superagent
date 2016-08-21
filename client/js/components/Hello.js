@@ -1,10 +1,10 @@
 import React, {Component} from "react";
 
-class Value extends Component{
+class Value extends Component {
   render() {
     return (
       <div>
-        <button onClick={this.props.onGet} className="btn btn-info">点我获取后台数据</button>
+        <button onClick={this.props.onGet} className="btn btn-info">快点我吧</button>
         <span>{this.props.value}</span>
       </div>
     );

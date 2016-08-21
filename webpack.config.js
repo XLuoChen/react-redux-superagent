@@ -4,14 +4,14 @@ var webpack = require("webpack");
 module.exports = {
   entry: {
     vendor: ["react", "react-dom", "./node_modules/bootstrap/dist/css/bootstrap.css"],
-    index: ["./public/src/main.js", "./public/style/index.css"]
+    index: ["./client/js/main.js", "./client/style/index.css"]
   },
   output: {
-    path: require('path').resolve("./public/dist"),
+    path: require('path').resolve("./client/dist"),
     filename: "[name].js"
   },
   resolve: {
-        extensions: ['', '.js', '.jsx']
+    extensions: ['', '.js', '.jsx']
   },
   module: {
     loaders: [
