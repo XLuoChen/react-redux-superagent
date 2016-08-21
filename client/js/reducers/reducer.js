@@ -1,4 +1,4 @@
-export default function reducer(state = {value:''}, action) {
+function reducer(state = {value:''}, action) {
   switch(action.type){
     case "GETTVALUE":
       return {
@@ -7,3 +7,5 @@ export default function reducer(state = {value:''}, action) {
   }
   return state;
 }
+
+module.exports = reducer;

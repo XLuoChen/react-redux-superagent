@@ -6,7 +6,7 @@ const router = express.Router();
 
 router.get('/hello', (req, res)=> {
   findData((result) => {
-    res.json(result[0].hello)
+    res.json(result)
   })
 });
 
